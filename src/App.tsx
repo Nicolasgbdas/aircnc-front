@@ -14,7 +14,7 @@ function App() {
               Aircnc
             </Navbar.Brand>
             <Nav className="me-auto">
-              <Nav.Link as={NavLink} to="/Imoveis">
+              <Nav.Link as={NavLink} to="Aircnc-back">
                 Imoveis
               </Nav.Link>
               <Nav.Link href="#pricing">Outro</Nav.Link>

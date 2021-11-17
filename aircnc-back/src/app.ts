@@ -7,7 +7,7 @@ import cors from 'cors';
 
 const app = express();
 
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 5000);
 app.use(json());
 app.use(cors({ origin: '*' }));
 

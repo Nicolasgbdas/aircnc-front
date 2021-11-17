@@ -23,7 +23,7 @@ export default function Imoveis() {
       setErro(false);
       setCarregando(true);
       try {
-        const resultado = await fetch("https://aircnc-clone-webserver-app.herokuapp.com");
+        const resultado = await fetch("http://localhost:5000/imoveis");
         if (resultado.ok) {
           const dados: Array<Imovel> = await resultado.json();
           setDados(dados);

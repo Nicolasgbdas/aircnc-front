@@ -14,7 +14,7 @@ ReactDOM.render(
       <Route path= "/" element={<App />}>
         <Route index element={<Aircnc/>}/>
         <Route path="*" element={<PaginaNaoEncontrada />} />
-        <Route path="Imoveis" element={<Imoveis />} />
+        <Route path="/imoveis" element={<Imoveis />} />
           {/*  <Route path=":imovelId" element={<Imovel />} />*/}
       </Route>
     </Routes>
