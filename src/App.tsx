@@ -1,25 +1,23 @@
 import React from 'react';
-import './App.css';
+import {Outlet, Link} from 'react-router-dom';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+   return (
+       <>
+       <header>
+         <h1>Header</h1>
+         <nav>
+            <Link to="/">Home</Link>  
+         </nav>
+       </header>
+       <main>
+          <Outlet></Outlet>
+       </main>
+       <footer>
+          <h2>Footer</h2>
+       </footer>
+       </>
+   );
 }
 
 export default App;
