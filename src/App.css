@@ -1,0 +1,29 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0;
+    text-decoration: none;
+}
+body{
+    width: 100%;
+}
+header{
+    background-color: black;
+}
+main{
+    background-color: black;
+}
+.tituloImoveis{
+    color: white;
+}
+.formImoveis{
+    background-color: white;
+    border-radius: 1em;
+}
+.imoveisSection{
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: center;
+}

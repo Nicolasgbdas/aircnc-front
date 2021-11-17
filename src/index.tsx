@@ -3,18 +3,19 @@ import ReactDOM from 'react-dom';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import './index.css';
 import App from './App';
-import Home from './Home';
+import Aircnc from './Aircnc';
 import PaginaNaoEncontrada from './PaginaNaoEncontrada';
+import Imoveis from './Imoveis';
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-    <Routes>
+    <Routes>  
       <Route path= "/" element={<App />}>
-        <Route index element={<Home/>}/>
+        <Route index element={<Aircnc/>}/>
         <Route path="*" element={<PaginaNaoEncontrada />} />
-        {/*<Route path="Imoveis" element={<Imoveis />}>
-            <Route path="imovelId" element={<Imovel />} />*/}
+        <Route path="Imoveis" element={<Imoveis />} />
+          {/*  <Route path=":imovelId" element={<Imovel />} />*/}
       </Route>
     </Routes>
     </BrowserRouter>
