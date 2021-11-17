@@ -100,7 +100,7 @@ export default function Imoveis() {
         <Row xs={2} md={4}>
           {Array.from({ length: 4 }).map((_, idx) => (
             <Col>
-              <Card style={{ width: "18rem" }}>
+              <Card style={{ width: "100%" }}>
                 <Card.Img variant="top" src="holder.js/100px180" />
                 <Card.Body>
                   <Card.Title>Nome Imovel</Card.Title>
