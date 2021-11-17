@@ -9,7 +9,7 @@ export class imovelRepositorio {
         let consulta = ImovelModel.find();
         return consulta.exec();
     }
-    static async buscarIporfiltro(tipo: string) {
+    static async buscarIporfiltro(tipo: string): Promise<Imovel[]>{
         let consultaf = await ImovelModel.where('tipoDeImovel').equals(tipo).exec();
         return consultaf;
     }
