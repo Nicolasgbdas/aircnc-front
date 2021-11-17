@@ -1,7 +1,7 @@
 * {
     padding:0;
     margin:0;
-    vertical-align:baseline;
+    vertical-align: middle;
     list-style:none;
     border:0;
     text-decoration: none;
@@ -18,16 +18,23 @@ main{
 .tituloImoveis{
     color: white;
 }
+
 .formImoveis{
     background-color: white;
     border-radius: 1em;
 }
 .imoveisSection{
-    margin-right: 5%;
-    margin-left: 5%;
     padding-top: 3%;
     padding-bottom: 5%;
     text-align: center;
+    float: none;
+    margin: 0 auto;
+    width: 100%;
+    
+}
+.imovelP{
+    font-size: 120%;
+    font-weight: 400;
 }
 footer{
     padding-top: 1em;

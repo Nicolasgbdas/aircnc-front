@@ -10,14 +10,19 @@ function App() {
       <header>
         <Navbar bg="dark" variant="dark">
           <Container>
-            <Navbar.Brand as={NavLink} to="/">
+            <Navbar.Brand as={NavLink} to="/imoveis">
               Aircnc
             </Navbar.Brand>
             <Nav className="me-auto">
-              <Nav.Link as={NavLink} to="Aircnc-back">
-                Imoveis
+              <Nav.Link as={NavLink} to="/imoveis/Casa">
+                Casas
               </Nav.Link>
-              <Nav.Link href="#pricing">Outro</Nav.Link>
+              <Nav.Link as={NavLink} to="/imoveis/ap">
+                Apartamentos
+              </Nav.Link>
+              <Nav.Link as={NavLink} to="/imoveis/quarto">
+                Quartos
+              </Nav.Link>
             </Nav>
           </Container>
         </Navbar>

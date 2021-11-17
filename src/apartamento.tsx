@@ -44,6 +44,7 @@ export default function Imoveis() {
     function Elements(dados: Array<Imovel>) {
       let element = [];
       for (let i of dados) {
+        if (i.tipoDeImovel.toLowerCase().indexOf("apartamento") !== -1) {
           element.push(
             <>
               <Container>
@@ -96,6 +97,7 @@ export default function Imoveis() {
               </Container>
             </>
           );
+        }
       }
 
       setElements(element);
