@@ -52,7 +52,6 @@ export default function Imoveis() {
                   <Row>
                     <Col>
                       <Card style={{ width: "100%" }}>
-                        <Card.Img variant="top" src="holder.js/100px180" />
                         <Card.Body>
                           <Card.Title>
                             {i.tipoDeImovel} em {i.endereco}

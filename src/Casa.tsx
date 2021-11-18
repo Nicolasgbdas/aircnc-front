@@ -50,7 +50,6 @@ export default function Casa() {
                 <Row>
                   <Col>
                     <Card style={{ width: "100%" }}>
-                      <Card.Img variant="top" src="holder.js/100px180" />
                       <Card.Body>
                         <img src={`/images/casa-americana`} alt="imagem do ambiente citado" />
                         <Card.Title>

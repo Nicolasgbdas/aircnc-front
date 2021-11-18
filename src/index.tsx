@@ -1,14 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
-import './index.css';
 import App from './App';
 import PaginaNaoEncontrada from './PaginaNaoEncontrada';
 import Casa from './Casa';
 import Imoveis from './Imoveis';
 import Ap from './apartamento'
 import Quarto from './quarto'
-
 
 ReactDOM.render(
   <React.StrictMode>
