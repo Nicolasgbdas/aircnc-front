@@ -2,7 +2,7 @@ import { comodImovel } from "./comodImovel";
 import { segImoveis } from "./segImovel";
 
 export interface Imovel {
-    //fotosDoImovel: [],
+    fotoImovel: string,
     preco: number,
     tipoDeImovel: string,
     comodos?: number,

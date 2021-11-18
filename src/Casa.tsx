@@ -33,10 +33,8 @@ export default function Casa() {
       } catch (error) {
         setErro(true);
       }
-
       setCarregando(false);
     }
-
     consultarWebServer();
   }, []);
 
@@ -54,6 +52,7 @@ export default function Casa() {
                     <Card style={{ width: "100%" }}>
                       <Card.Img variant="top" src="holder.js/100px180" />
                       <Card.Body>
+                        <img src={`/images/casa-americana`} alt="imagem do ambiente citado" />
                         <Card.Title>
                           {i.tipoDeImovel} em {i.endereco}
                         </Card.Title>
